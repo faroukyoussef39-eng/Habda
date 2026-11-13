@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "echo 'Flutter web is prebuilt into public/ by deploy.ps1'",
+  "outputDirectory": "public",
+  "regions": ["fra1"],
+  "functions": {
+    "api/game.ts": { "maxDuration": 10 }
+  }
+}

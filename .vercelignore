@@ -1,0 +1,8 @@
+app
+packages
+node_modules
+api/_tests
+*.md
+deploy.ps1
+supabase
+.env*

@@ -1,0 +1,21 @@
+{
+  "name": "bluff-party",
+  "private": true,
+  "scripts": {
+    "test": "tsx --test api/_tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "dev:api": "tsx dev-server.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@vercel/node": "^5.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

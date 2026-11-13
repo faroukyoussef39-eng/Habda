@@ -1,0 +1,6 @@
+name: game_core
+description: Client-side models and wire protocol for the bluffing game.
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
